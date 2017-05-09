@@ -1,0 +1,19 @@
+#!/bin/bash
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sorted_20071210.txt sorted_20080101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20080601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20090101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20090601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20100101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20100601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20110101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20110601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20120101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20120601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20130101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20130601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20140101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20140601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20150101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20150601.txt > sum_terms2.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms2.txt sorted_20160101.txt > sum_terms.txt
+awk 'NR == FNR {val[$1]=$2; next} $1 in val {print $1, val[$1] + $2}' sum_terms.txt sorted_20160601.txt > sum_terms2.txt
